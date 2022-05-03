@@ -1,0 +1,19 @@
+.productCard {
+    background-color: rgba(236, 219, 134, 0.311);
+    border-radius: 25%;
+    overflow: hidden;
+    text-align: center;
+    height: 60vh;
+    width: 40vh;
+    color: rgba(99, 10, 10, 0.744);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.imageCard {
+    text-align: center;
+}
+
+.productInfo {
+    display: flex;
+    flex-direction: row;
+}

@@ -35,3 +35,20 @@ body {
 #p3 {
     flex-grow: 1;
 }
+
+.article {
+    display: flex;
+    padding: 15vh;
+    justify-content: center;
+}
+
+#artImg {
+    flex-shrink: 2;
+}
+
+#art {
+    flex-shrink: 1;
+    flex-basis: 20%;
+    text-align: justify;
+    padding: 100px;
+}
