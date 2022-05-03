@@ -1,0 +1,30 @@
+.art {
+    display: flex;
+    align-items: center;
+    background-color: rgba(236, 219, 134, 0.311);
+    text-align: start;
+    align-items: flex-start;
+    color: rgba(99, 10, 10, 0.744);
+    font-family: Helvetica, sans-serif;
+    max-width: 1000px;
+    justify-content: center;
+    margin: 30px;
+}
+
+#artImg {
+    width: 100%;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+#artText {
+    width: 100%;
+    padding: 20px;
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 600px) {
+    .art {
+        flex-direction: column-reverse;
+    }
+}
