@@ -1,0 +1,35 @@
+.mainNav {
+    display: flex;
+    background-color: rgba(236, 219, 134, 0.311);
+    color: rgba(99, 10, 10, 0.744);
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 700;
+    font-size: small;
+    border-radius: 100px;
+    padding: 30px;
+
+}
+
+.divs {
+    background-color: rgba(236, 219, 134, 0.945);
+    border-radius: 100px;
+    padding: 20px;
+    width: 9vh;
+}
+
+#midleDiv {
+    display: flex;
+    width: 18vh;
+    align-items: center;
+    justify-content: space-between;
+    font-size: x-large;
+    ;
+    
+}
+
+img {
+    width: 50px;
+}
